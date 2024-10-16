@@ -1,0 +1,43 @@
+.navbarContainer{
+    display: flex;
+    width: 100%;
+}
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    width: 20.875rem;
+}
+
+.projectContainer label {
+    color: #363737;
+    font-family: "PT Sans Caption";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+}
+
+.projectContainer select {
+    color: #515151;
+    font-family: "PT Sans";
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #A8ABF4;
+    padding: 6px;
+}
+
+.iconsContainer {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 12px;
+}
+
+.iconsBox {
+    display: flex;
+    width: 41.12px;
+    height: 41.12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 39.382px;
+    background: #6F73F6;
+}

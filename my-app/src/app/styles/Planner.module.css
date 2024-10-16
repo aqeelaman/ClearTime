@@ -1,0 +1,63 @@
+.plannerSection {
+    display: flex;
+    padding: 0.9375rem 1.0625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9375rem;
+    align-self: stretch;
+    border-radius: 0.375rem;
+    background: #F6F6F6;
+    margin-top: 10px;
+}
+
+.btnContainer {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+
+}
+
+.graphButton {
+    color: #6F73F6;
+    text-align: center;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    padding: 9.388px 15.887px;
+    justify-content: center;
+    align-items: center;
+    gap: -2.567px;
+    border-radius: 5.055px;
+    border: 0.722px solid #FBFBFB;
+    background: #E9EEFA;
+}
+
+.selected {
+    border: 1px solid #6F73F6;
+    background: #6F73F6;
+    color: #FFF;
+}
+
+.plannerSection table {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.plannerSection td {
+    border: 2px solid #DCDDFC;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 11px;
+}
+
+.plannerSection th {
+    text-align: left;
+    font-size: 16px;
+    padding: 10px 11px;
+    border: 2px solid #5D60C5;
+    background: #6F73F6;
+    color: #FFF;
+}

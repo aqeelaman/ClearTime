@@ -1,0 +1,29 @@
+/* components/Grid.module.css */
+.gridBackground {
+    position: fixed; /* Stick the grid to the background */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Ensure it's behind other content */
+    pointer-events: none; /* Make the grid non-interactive */
+  }
+  
+  .line {
+    position: absolute;
+    background-color: #6F73F6; /* Light gray lines */
+    transition: opacity 0.5s ease;
+  }
+  
+  /* Horizontal lines styling */
+  .horizontal {
+    width: 100%;
+    height: 1px;
+  }
+  
+  /* Vertical lines styling */
+  .vertical {
+    height: 100%;
+    width: 1px;
+  }
+  
