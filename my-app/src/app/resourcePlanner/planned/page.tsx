@@ -1,5 +1,5 @@
-import AllLineGraph from "@/app/components/AllLineGraph";
-import AllBarGraph from "@/app/components/AllBarGraph";
+import PlannedLineGraph from "@/app/components/PlannedLineGraph";
+import PlannedBarGraph from "@/app/components/PlannedBarGraph";
 import TasksTable from "@/app/components/TasksTable";
 import { fetchGraphData } from "@/app/utils/api";
 
@@ -8,9 +8,9 @@ export default async function Page() {
   console.log(graphData);
   return (
     <>
-      <TasksTable data={graphData} type="allTasks" /> 
-      <AllLineGraph />
-      <AllBarGraph />
+      <TasksTable data={graphData} type="planned" /> 
+      <PlannedLineGraph />
+      <PlannedBarGraph />
     </>
   );
 }

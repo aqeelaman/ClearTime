@@ -1,8 +1,43 @@
 import styles from "@/app/styles/Planner.module.css"
-const Table = () => {
+
+interface TaskData {
+    weekStart: string;
+    taskCount: string;
+    ifcCount: string;
+}
+
+interface TasksTableProps {
+    data: any;  //TaskData
+    type: "allTasks" | "planned" | "completed";
+}
+
+const Table = ({ data, type }: TasksTableProps) => {
+
     return (
         <table className={styles.taskTable}>
             <tbody>
+                {/* <tr>
+                    <th>Cut off date</th>
+                    {data.map((item, index) => (
+                        <td key={index}>{item.weekStart}</td>
+                    ))}
+                </tr>
+                {(type === "allTasks" || type === "planned") && (
+                    <tr>
+                        <th>Planned No. of Tasks</th>
+                        {data.map((item, index) => (
+                            <td key={index}>{item.taskCount}</td>
+                        ))}
+                    </tr>
+                )}
+                {(type === "allTasks" || type === "completed") && (
+                    <tr>
+                        <th>Completed No. of Tasks</th>
+                        {data.map((item, index) => (
+                            <td key={index}>{item.ifcCount}</td>
+                        ))}
+                    </tr>
+                )} */}
                 <tr>
                     <th>Cut off date</th>
                     <td>07-Jul</td>
@@ -16,8 +51,7 @@ const Table = () => {
                     <td>01-Sep</td>
                     <td>08-Sep</td>
                     <td>15-Sep</td>
-                    <td>22-Sep</td>
-                </tr>
+                    <td>22-Sep</td></tr>
                 <tr>
                     <th>Planned No. of Tasks</th>
                     <td>20</td>

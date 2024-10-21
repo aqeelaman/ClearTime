@@ -20,7 +20,7 @@ const chartData = [
 const chartConfig = {
     completed: {
         label: "Completed",
-        color: "hsl(var(--chart-2))",
+        color: "#B2B2CC",
     },
 } satisfies ChartConfig
 

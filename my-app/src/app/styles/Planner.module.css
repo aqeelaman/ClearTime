@@ -8,6 +8,7 @@
     border-radius: 0.375rem;
     background: #F6F6F6;
     margin-top: 10px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .btnContainer {
@@ -16,7 +17,6 @@
     margin: auto;
     justify-content: space-between;
     padding: 0 100px 0 100px;
-
 }
 
 .graphButton {

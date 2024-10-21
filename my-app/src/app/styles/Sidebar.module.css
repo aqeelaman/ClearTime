@@ -5,8 +5,12 @@
     box-shadow: 0px 7px 62.9px 0px rgba(127, 160, 168, 0.05);
     width: 13.3rem;
     height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
     border-right: 1px solid #CFDAE5;
     background: #F9FCFE;
+    font-family: "PT Sans", sans-serif;
 }
 
 .logoContainer {
@@ -27,7 +31,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    font-family: 'PT Sans Caption';
+    font-family: 'PT Sans Caption', sans-serif;
 }
 
 .logo {
@@ -49,9 +53,7 @@
     background: #E9EEFA;
     color: #595DDB;
     font-size: 0.88838rem;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .bottomContainer {
@@ -84,6 +86,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 2px;
+    font-family: "PT Sans Caption", sans-serif;
 }
 
 .plannerName p {
@@ -112,4 +115,5 @@
     color: #FFF;
     font-size: 12.972px;
     font-weight: 400;
+    font-family: "PT Sans Caption", sans-serif;
 }

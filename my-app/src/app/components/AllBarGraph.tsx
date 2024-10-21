@@ -20,11 +20,11 @@ const chartData = [
 const chartConfig = {
     planned: {
         label: "Planned",
-        color: "hsl(var(--chart-1))",
+        color: "#6F73F6",
     },
     completed: {
         label: "Completed",
-        color: "hsl(var(--chart-2))",
+        color: "#B2B2CC",
     },
 } satisfies ChartConfig
 

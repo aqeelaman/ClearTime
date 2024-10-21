@@ -1,6 +1,7 @@
 .navbarContainer{
     display: flex;
     width: 100%;
+    font-family: "PT Sans", sans-serif;
 }
 .projectContainer {
     display: flex;
@@ -10,7 +11,7 @@
 
 .projectContainer label {
     color: #363737;
-    font-family: "PT Sans Caption";
+    font-family: "PT Sans Caption", sans-serif;
     font-size: 16px;
     font-weight: 400;
     padding: 6px;
@@ -18,7 +19,6 @@
 
 .projectContainer select {
     color: #515151;
-    font-family: "PT Sans";
     font-size: 14px;
     border-radius: 4px;
     border: 1px solid #A8ABF4;
